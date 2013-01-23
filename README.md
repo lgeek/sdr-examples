@@ -20,6 +20,7 @@ Relevant theory
 
 * [DSP page on Wikipedia](https://en.wikipedia.org/wiki/Digital_signal_processing) - read up on sampling, time and frequency domains
 * [Some stuff on Fourier analysis](http://www.cs.man.ac.uk/~barry/mydocs/MyCOMP28512/Last%20year/MS11-3-Barry2.pdf)(PDF) - focused on audio applications, but I've found it more accessible than [the stuff on Wikipedia](https://en.wikipedia.org/wiki/Discrete_Fourier_transform).
+* [Quadrature signals](file:///home/cosmin/Downloads/QuadSignals.pdf)(PDF) - thorough explanation of quadrature signals
 * [NI page on I/Q data](http://www.ni.com/white-paper/4805/en) - the data we get from SDRs is in the form of I/Q samples
 * [Wikipedia page on digital filters](https://en.wikipedia.org/wiki/Digital_filter)
 

@@ -11,13 +11,13 @@ To run it:
 >
 >Valid options:
 
->  -r <file>         Use recorded data from <file> instead of an rtl-sdr device
+>  -r file         Use recorded data from file instead of an rtl-sdr device
 
->  -f <frequency>    Frequency to tune to, in Hz (default: 97.70 MHz)
+>  -f frequency    Frequency to tune to, in Hz (default: 97.70 MHz)
 
->  -d <device_index> Rtl-sdr device index (default: 0)
+>  -d device_index Rtl-sdr device index (default: 0)
 
->  -h                Show help
+>  -h              Show help
 
 
 FM demodulation
