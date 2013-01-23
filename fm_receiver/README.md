@@ -30,7 +30,7 @@ In the context of SDR, analog FM demodulation usually works like this:
 * downsample to sound card frequency
 * apply a [de-emphasis](https://en.wikipedia.org/wiki/FM_broadcasting#Pre-emphasis_and_de-emphasis) filter
 
-Optionally, the signal from 23 to 53 kHz can be mixed with the mono sound to obtain stereo sound. See the [Wikipedia page on FM broadcasting]((https://en.wikipedia.org/wiki/FM_broadcasting#Other_subcarrier_services).
+Optionally, the signal from 23 to 53 kHz can be mixed with the mono sound to obtain stereo sound. See the [Wikipedia page on FM broadcasting](https://en.wikipedia.org/wiki/FM_broadcasting#Other_subcarrier_services).
 
 [This Linux Journal article](http://www.linuxjournal.com/article/7505?page=0,0) explains everything in a lot more detail.
 
