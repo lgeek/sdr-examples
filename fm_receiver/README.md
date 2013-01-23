@@ -10,9 +10,13 @@ To run it:
 >Usage: fm_receiver [OPTIONS]
 >
 >Valid options:
+
 >  -r <file>         Use recorded data from <file> instead of an rtl-sdr device
+
 >  -f <frequency>    Frequency to tune to, in Hz (default: 97.70 MHz)
+
 >  -d <device_index> Rtl-sdr device index (default: 0)
+
 >  -h                Show help
 
 
@@ -21,12 +25,12 @@ FM demodulation
 
 In the context of SDR, analog FM demodulation usually works like this:
 * apply a low-pass filter on the baseband signal - wideband FM is around 150 KHz wide
-* use a [quadrature phase detector](https://en.wikipedia.org/wiki/Detector_(radio)#Quadrature_detector) to demodulate the signal
+* use a [quadrature phase detector](https://en.wikipedia.org/wiki/Detector_%28radio%29#Quadrature_detector) to demodulate the signal
 * apply another low-pass filter to filter out anything above the [15 KHz mono sound](https://en.wikipedia.org/wiki/FM_broadcasting#Other_subcarrier_services)
 * downsample to sound card frequency
 * apply a [de-emphasis](https://en.wikipedia.org/wiki/FM_broadcasting#Pre-emphasis_and_de-emphasis) filter
 
-Optionally, the signal from 23 to 53 kHz can be mixed with the stereo sound to obtain stereo sound. See the [Wikipedia page on FM broadcasting]((https://en.wikipedia.org/wiki/FM_broadcasting#Other_subcarrier_services)).
+Optionally, the signal from 23 to 53 kHz can be mixed with the mono sound to obtain stereo sound. See the [Wikipedia page on FM broadcasting]((https://en.wikipedia.org/wiki/FM_broadcasting#Other_subcarrier_services).
 
 [This Linux Journal article](http://www.linuxjournal.com/article/7505?page=0,0) explains everything in a lot more detail.
 
